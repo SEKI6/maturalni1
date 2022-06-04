@@ -399,7 +399,8 @@ function saveResult(){
     
         
     (async () => {
-        const rawResponse = await fetch('http://10.25.26.156:3002/api', {
+        //const rawResponse = await fetch('http://10.25.26.156:3002/api', {
+        const rawResponse = await fetch('https://zavrsniradandjal.herokuapp.com/api', {
           method: 'POST',
           headers: {
             'Accept': 'application/json',
